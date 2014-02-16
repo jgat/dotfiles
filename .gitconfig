@@ -1,0 +1,15 @@
+[user]
+	name = Jackson Gatenby
+	email = jackson.gatenby@gmail.com
+[core]
+	excludesfile = /Users/jackson/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+
+[color]
+status = auto
+	ui = true
