@@ -73,6 +73,9 @@ export PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:/usr/local/bi
 alias orac="ssh orac"
 alias gauss="ssh gauss"
 alias euclid="ssh euclid"
+alias moss="ssh moss"
+alias lichen="ssh lichen"
+alias attic="ssh attic"
 
 export EDITOR="vim"
 setopt interactivecomments
