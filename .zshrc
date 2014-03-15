@@ -75,3 +75,4 @@ alias gauss="ssh gauss"
 alias euclid="ssh euclid"
 
 export EDITOR="vim"
+setopt interactivecomments
